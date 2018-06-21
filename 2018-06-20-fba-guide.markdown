@@ -1,0 +1,59 @@
+---
+layout: post
+title:  "FBA User Guide"
+date:   2018-06-20 09:08:41 +0100
+categories: rs97 arcade fba
+---
+Greetings! This is my first attempt at a guide, so bear with me on this.
+
+**Final Burn Alpha, the guide**
+
+[Main GitHub page][fba-github]
+
+FBA is an arcade emulator with less games than MAME, but still very popular and somewhat easier to use.
+
+**Config**
+
+First, set up some directories on your ROMS partition.
+
+For this example, I am using v1.8.1 external SD firmware.
+
+I will store my roms in ``roms/fba``.
+
+This, on the RS-97 OS, will map to ``/mnt/int_sd/roms/fba``
+
+To easily modify the ROM paths (which you will need) you can edit the file on ``/mnt/int_sd/.fba`` named ``fbasdl.ini`` and add the path to any of the the 
+```
+szAppRomPaths[x] 
+```
+lines, like this:
+```
+szAppRomPaths[x] /mnt/int_sd/roms/fba/
+```
+Notice the trailing slash at the end of it.
+
+This config is analogous for the FBA A320 version, just check the ``.fba_a320`` folder and edit the ``fbasdl.ini`` found there.
+
+**In-game controls and hotkeys**
+----
+
+**Key** | **Value**
+---- | ----
+**D-PAD** | D-PAD
+**SELECT** | Coin1
+**START** | Start1
+**SELECT+START** | Start2
+**A** | Fire1
+**B** | Fire2
+**X** | Fire3
+**Y** | Fire4
+**L** | Fire5
+**R** | Fire6
+
+**L+R+Y** | Show/hide fps
+**L+R+A** | Quick state load
+**L+R+B** | Quick state save
+**L+R+SELECT** | Service menu
+**L+R+START** | FBA menu (key config and load/save states)
+
+[fba-github]: https://github.com/dmitrysmagin/fba-sdl
