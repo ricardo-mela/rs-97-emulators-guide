@@ -29,7 +29,7 @@ To easily modify the ROM paths (which you will need) you can edit the file on ``
 336,16,10,0,-1,2,100,100,1,0,1368,0,/mnt/int_sd/roms/MAME
 ```
 
-In-game controls and hotkeys cas be checked using [this link][mame-controls].
+In-game controls and hotkeys can be checked using [this link][mame-controls].
 
 **Standard in-game MAME controls:** | 
 ---- | ----
