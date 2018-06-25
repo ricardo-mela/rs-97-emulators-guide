@@ -16,7 +16,7 @@ FBA is an arcade emulator with less games than MAME, but still very popular and 
 
 First, set up some directories on your ROMS partition.
 
-For this example, I am using v1.8.1 external SD firmware.
+For this example, I am using v1.9 external SD firmware.
 
 I will store my roms in ``roms/fba``.
 

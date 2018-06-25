@@ -16,7 +16,7 @@ You know what MAME is. Read on.
 
 First, set up some directories on your ROMS partition.
 
-For this example, I am using v1.8.1 external SD firmware.
+For this example, I am using v1.999999999 external SD firmware.
 
 I will store my roms in ``roms/MAME``.
 

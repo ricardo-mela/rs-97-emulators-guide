@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "GNGEO User Guide"
+date:   2018-06-20 09:08:41 +0100
+categories: rs97 arcade neogeo
+---
+
+**GNGEO, the guide**
+
+GNGEO is a Neo Geo emulator that has been around for a while. It has good performance and lots of cool features, like savestates. Runs very well on the RS-97.
+
+**Config**
+
+First, set up some directories on your ROMS partition.
+
+For this example, I am using v1.9 external SD firmware.
+
+I will store my roms in ``roms/fba``.
+
+This, on the RS-97 OS, will map to ``/mnt/int_sd/roms/fba``
+
+In order to make GNGEO pick the correct ROM folder (which you will need to execute it and run your ROMs) you can edit the file on ``/mnt/int_sd/.gngeo`` named ``gngeorc`` and add the path to the rompath directive at the beginning of the file, like this:
+```
+rompath /mnt/int_sd/roms/fba
+```
+
+Save it and exit.
+
+Once done, you are good to go :) 
+
+The top button will get you back to the main emulator menu if need be.
